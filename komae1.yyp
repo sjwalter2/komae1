@@ -63,6 +63,46 @@
             }
         },
         {
+            "Key": "078fa593-7eb7-4eab-918c-5fd0d71d22d7",
+            "Value": {
+                "id": "239b30bd-b006-404c-bbaa-2725980c6de1",
+                "resourcePath": "views\\078fa593-7eb7-4eab-918c-5fd0d71d22d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "136953ff-ce7a-4181-a5e5-0dd48e06cbab",
+            "Value": {
+                "id": "4b1aaf6f-2506-4ded-94af-9a98380a05c2",
+                "resourcePath": "views\\136953ff-ce7a-4181-a5e5-0dd48e06cbab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "252d860e-f2d4-4b7b-8955-b41cce1dacd3",
+            "Value": {
+                "id": "50bc6835-c76d-4217-97c0-69a29aa1136b",
+                "resourcePath": "objects\\robotservant\\robotservant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d5f494c-c166-40b9-bd5e-3cf9d20c2533",
+            "Value": {
+                "id": "acc182c3-b85f-4637-ab23-f0de9d9ca35f",
+                "resourcePath": "sprites\\tuftastand\\tuftastand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "37f310ab-80b6-4581-910e-96560bae6cba",
+            "Value": {
+                "id": "e551afda-359a-4c3f-a638-b1d986bd8723",
+                "resourcePath": "objects\\bibboost\\bibboost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c24bbf0-26a1-4454-92b3-3507d011f17c",
             "Value": {
                 "id": "fcd2a3d1-ece1-4be7-9641-937beb282c7a",
@@ -159,11 +199,27 @@
             }
         },
         {
+            "Key": "79de23e9-4869-4868-9d43-06072ac0a5d4",
+            "Value": {
+                "id": "3aecdc15-f1f9-4bd8-9644-d5f0c4b263ab",
+                "resourcePath": "sprites\\robotservantsprite\\robotservantsprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85609f26-1693-421a-89df-959d2269d6ad",
             "Value": {
                 "id": "85fd240d-8de1-4ad9-bb1e-ff44c6752ed5",
                 "resourcePath": "views\\85609f26-1693-421a-89df-959d2269d6ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8841e10d-ee98-4225-9d95-229309da6c7f",
+            "Value": {
+                "id": "2cbd23b5-c7f0-48ae-9381-00287782ed32",
+                "resourcePath": "sprites\\bibboostsprite\\bibboostsprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -255,6 +311,22 @@
             }
         },
         {
+            "Key": "b834f8b5-4a80-4bd0-a02b-ac8df24dd797",
+            "Value": {
+                "id": "be634cce-d3e7-4b49-a53b-f6bbbd58479e",
+                "resourcePath": "sprites\\bibrun1\\bibrun1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbdf9071-dfe5-483d-97cb-41f0d79fb311",
+            "Value": {
+                "id": "dee69157-11a0-4a21-bad9-45fea5085fef",
+                "resourcePath": "sprites\\bibyawn1\\bibyawn1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bcbdb603-9891-4f2e-a778-05ed52040920",
             "Value": {
                 "id": "273604db-8ed0-49f8-af95-5d3ac119a176",
@@ -263,11 +335,35 @@
             }
         },
         {
+            "Key": "c08c09be-34cd-4a67-a14f-b0aa996bdf36",
+            "Value": {
+                "id": "f69950d1-1450-4f92-a68f-4bdb66bd66f4",
+                "resourcePath": "objects\\structure\\structure.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c1e75a60-8e42-48f5-aefd-d430f45bbeec",
+            "Value": {
+                "id": "c07bcae8-fcda-42f0-bd78-5b4637233c01",
+                "resourcePath": "objects\\fence\\fence.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "076bcf9f-8b44-4c13-900a-735ce67fbac0",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdc2f77e-65a3-47be-b130-46000e2caa83",
+            "Value": {
+                "id": "1803b807-12e6-41d4-bfa6-fc222b426fe8",
+                "resourcePath": "sprites\\bibhurt1\\bibhurt1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,6 +388,14 @@
                 "id": "312f5fe5-0876-494a-b19e-203293cd9de5",
                 "resourcePath": "views\\e1e01f75-064f-4fe0-9340-6f5fd51be68f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5615b0c-1d63-4d55-ba88-f429e26f55bc",
+            "Value": {
+                "id": "6addf74e-9dce-40ef-a40d-2c0c6a5c010a",
+                "resourcePath": "sprites\\bibjump1\\bibjump1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -348,6 +452,14 @@
                 "id": "79e2db53-9363-4c73-a622-9f897c76c5da",
                 "resourcePath": "objects\\wall\\wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6562014-c47e-422c-ac24-df66f675c81c",
+            "Value": {
+                "id": "89444322-c51d-40ce-9a31-df43315d1845",
+                "resourcePath": "sprites\\bibfall1\\bibfall1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
