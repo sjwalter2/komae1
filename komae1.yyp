@@ -71,11 +71,27 @@
             }
         },
         {
+            "Key": "07b60454-96e1-4903-af3e-421afc6b07a2",
+            "Value": {
+                "id": "f3bedeff-e242-4793-89ce-0e9e9c2188bb",
+                "resourcePath": "objects\\dragondoor\\dragondoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "136953ff-ce7a-4181-a5e5-0dd48e06cbab",
             "Value": {
                 "id": "4b1aaf6f-2506-4ded-94af-9a98380a05c2",
                 "resourcePath": "views\\136953ff-ce7a-4181-a5e5-0dd48e06cbab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "24d6b4c1-ffb3-4ec0-b8de-7aba06a93c48",
+            "Value": {
+                "id": "36e2db5f-0cf7-42bc-9e56-89f1a9b26315",
+                "resourcePath": "rooms\\fluteplayer\\fluteplayer.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -107,6 +123,14 @@
             "Value": {
                 "id": "fcd2a3d1-ece1-4be7-9641-937beb282c7a",
                 "resourcePath": "sprites\\bibyawn\\bibyawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
+            "Value": {
+                "id": "a0e326a7-519d-4c0e-9406-409e020de26f",
+                "resourcePath": "sprites\\door\\door.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -234,7 +258,7 @@
             "Key": "8a3e3a0a-cfa1-47b0-ab11-2d75efbbdbf9",
             "Value": {
                 "id": "2b17adb4-8e9a-412f-8faf-03939299b744",
-                "resourcePath": "rooms\\fluteplayer\\fluteplayer.yy",
+                "resourcePath": "rooms\\baseroom\\baseroom.yy",
                 "resourceType": "GMRoom"
             }
         },
