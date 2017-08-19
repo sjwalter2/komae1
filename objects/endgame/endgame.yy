@@ -1,28 +1,18 @@
 {
-    "id": "07b60454-96e1-4903-af3e-421afc6b07a2",
+    "id": "e3ed2317-9fce-4d66-be65-04a26536d827",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "dragondoor",
+    "name": "endgame",
     "eventList": [
         {
-            "id": "c402e396-0f53-4fb5-92bb-f61e269a1619",
+            "id": "9dc5f60c-835a-4252-928b-3b2d3df74cfb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "07b60454-96e1-4903-af3e-421afc6b07a2"
-        },
-        {
-            "id": "d7dcaddb-32b8-4240-9db0-044fbdd67b9d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "07b60454-96e1-4903-af3e-421afc6b07a2"
+            "m_owner": "e3ed2317-9fce-4d66-be65-04a26536d827"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

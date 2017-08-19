@@ -2,7 +2,7 @@
     "id": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "door",
+    "name": "dragondoorsprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -35,6 +35,50 @@
                     "LayerId": "5c7728f6-0974-4c23-ae03-4b8242f3ee7b"
                 }
             ]
+        },
+        {
+            "id": "0cda0e7f-a5b1-4438-81ed-ddc7b62765b7",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
+            "compositeImage": {
+                "id": "cf2d2aa9-4f46-4650-bf8a-4e8dde77d8a0",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "0cda0e7f-a5b1-4438-81ed-ddc7b62765b7",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "9b24fc3a-491c-49e8-8c42-d66266ebd903",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "0cda0e7f-a5b1-4438-81ed-ddc7b62765b7",
+                    "LayerId": "5c7728f6-0974-4c23-ae03-4b8242f3ee7b"
+                }
+            ]
+        },
+        {
+            "id": "a0656df5-a750-4b03-945d-b5bef04cd9e4",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
+            "compositeImage": {
+                "id": "ce483244-d435-4c52-8b48-9a18b6f3b3dc",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "a0656df5-a750-4b03-945d-b5bef04cd9e4",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "c7960eb3-6a46-458b-83df-c8604e9d923d",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "a0656df5-a750-4b03-945d-b5bef04cd9e4",
+                    "LayerId": "5c7728f6-0974-4c23-ae03-4b8242f3ee7b"
+                }
+            ]
         }
     ],
     "gridX": 0,
@@ -54,7 +98,7 @@
         }
     ],
     "origin": 0,
-    "playbackSpeed": 15,
+    "playbackSpeed": 0,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,

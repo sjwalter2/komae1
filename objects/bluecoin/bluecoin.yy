@@ -1,28 +1,18 @@
 {
-    "id": "07b60454-96e1-4903-af3e-421afc6b07a2",
+    "id": "29f79476-88ca-4fe3-8af6-e9be65f751c3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "dragondoor",
+    "name": "bluecoin",
     "eventList": [
         {
-            "id": "c402e396-0f53-4fb5-92bb-f61e269a1619",
+            "id": "66780738-9265-4f19-9d28-ad4bb90250f5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "92e80a8e-414e-4988-aacd-16e8ab58af09",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "07b60454-96e1-4903-af3e-421afc6b07a2"
-        },
-        {
-            "id": "d7dcaddb-32b8-4240-9db0-044fbdd67b9d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "07b60454-96e1-4903-af3e-421afc6b07a2"
+            "eventtype": 4,
+            "m_owner": "29f79476-88ca-4fe3-8af6-e9be65f751c3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "3f6be5fc-e2b6-4708-a169-8d997fb7558a",
+    "spriteId": "1fae37b6-0b27-4336-b404-e1e38fb8ed4b",
     "visible": true
 }
