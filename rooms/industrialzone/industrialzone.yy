@@ -409,7 +409,8 @@
         "c368b9a3-a110-42bc-9d35-20a0f4d5c5ad",
         "c9bffdab-5ea6-4d06-9dd8-a6d77fcc8c5d",
         "b0544f38-b04d-4206-b644-049f9f03d620",
-        "0fa9f3f7-92ad-49f8-adca-d496c977c181"
+        "0fa9f3f7-92ad-49f8-adca-d496c977c181",
+        "519c06ab-d1ab-44a7-ab96-7162f9a7ad08"
     ],
     "layers": [
         {
@@ -1620,7 +1621,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5AF75869",
-                    "x": 8896,
+                    "x": 8928,
                     "y": 640,
                     "IsDnD": true,
                     "colour": {
@@ -6075,6 +6076,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "519c06ab-d1ab-44a7-ab96-7162f9a7ad08",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_349ED6A6",
+                    "x": 8864,
+                    "y": 640,
+                    "IsDnD": true,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_349ED6A6",
+                    "objId": "e7916cb6-f0d8-4ac8-9619-3aeee0f1c629",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -10100,8 +10125,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_E57EDBD.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_E57EDBD",
                     "objId": "3e5478d6-9e62-4c1f-bef6-476745d42a19",
