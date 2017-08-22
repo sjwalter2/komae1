@@ -4,29 +4,10 @@
     "mvc": "1.0",
     "name": "returndoor",
     "eventList": [
-        {
-            "id": "9a238ba3-138e-4881-a882-539e7c149d98",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3ef89e36-e28f-44aa-b492-a7ba35e6cf08"
-        },
-        {
-            "id": "bfc9a791-f3a7-47b8-81b6-8fa50539507c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3ef89e36-e28f-44aa-b492-a7ba35e6cf08"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "416fe8f3-145b-4d9e-84cb-659972a8c0fb",
+    "parentObjectId": "6b146c8a-99dc-4807-a55a-b2ff79c47d3c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
