@@ -46,7 +46,8 @@
         "0df67b5f-115e-479c-b493-f553a25dbac4",
         "02fa5144-aaed-4ac3-b27d-829719eeec73",
         "999aa51d-2890-43c7-b368-c7b7f8d5f8fa",
-        "6562fa40-80ac-430b-9609-6647a39dea2f"
+        "6562fa40-80ac-430b-9609-6647a39dea2f",
+        "cc422ebf-b53d-4d75-b167-18418cc1b1f3"
     ],
     "layers": [
         {
@@ -232,8 +233,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_6D66F9B5.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6D66F9B5",
                     "objId": "6e357ec3-0635-4ccf-9231-87b14652d6be",
@@ -981,6 +982,30 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_53035403",
                     "objId": "e7916cb6-f0d8-4ac8-9619-3aeee0f1c629",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "cc422ebf-b53d-4d75-b167-18418cc1b1f3",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_6D8560E3",
+                    "x": 320,
+                    "y": 160,
+                    "IsDnD": true,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "InstanceCreationCode_inst_6D8560E3.gml",
+                    "creationCodeType": ".gml",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_6D8560E3",
+                    "objId": "4c0b699a-d618-460f-8972-e18b8d9cb6b2",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
