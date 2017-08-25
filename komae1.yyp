@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "31425108-85bc-4035-8ac8-bcc0c665dda9",
+            "Value": {
+                "id": "19a89a15-d19e-4dc0-b25c-e62f06d3691a",
+                "resourcePath": "objects\\pompboy\\pompboy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32d4ac9e-95bc-40f4-82a6-548781d5e032",
             "Value": {
                 "id": "ff2c3712-8745-4403-98fa-8df0391ec6cb",
@@ -444,6 +452,14 @@
                 "id": "5cba4b06-5961-4ab0-b36f-ddc45fdc86f3",
                 "resourcePath": "views\\97f4961e-8ec8-4e0a-a80a-801ad0fcd88b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9888681a-81bb-4c5f-a99f-5907e8d676c3",
+            "Value": {
+                "id": "fad2e6d8-f3d1-48bc-8685-06c47a030da1",
+                "resourcePath": "sprites\\pompboysprite\\pompboysprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
