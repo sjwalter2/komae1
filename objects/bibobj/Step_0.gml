@@ -116,16 +116,25 @@ if(invincibletime <= 0){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23485095
-/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)timeonground += 1;$(13_10)$(13_10)wallcheck(structure);$(13_10)show_debug_message(string(vsp));$(13_10)wallcheck(pompboy);$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)timeonground += 1;$(13_10)$(13_10)var returnval = 0;$(13_10)returnval += wallcheck(structure);$(13_10)returnval += wallcheck(pompboy);$(13_10)$(13_10)if (returnval == 0){$(13_10)  vsp = min(vsp+grav,maxvspeed);$(13_10)  jumps=0;$(13_10)  if(vsp > 0) {$(13_10)   if (damagetime < 1) sprite_index = bibfall;$(13_10)   timeonground = 0;$(13_10)  }$(13_10)}$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)"
 /// @description Handle Wall, Door Collisions
 
 
 
 timeonground += 1;
 
-wallcheck(structure);
-show_debug_message(string(vsp));
-wallcheck(pompboy);
+var returnval = 0;
+returnval += wallcheck(structure);
+returnval += wallcheck(pompboy);
+
+if (returnval == 0){
+  vsp = min(vsp+grav,maxvspeed);
+  jumps=0;
+  if(vsp > 0) {
+   if (damagetime < 1) sprite_index = bibfall;
+   timeonground = 0;
+  }
+}
 
 if(place_meeting(x+hsp, y+vsp, door) && keyup){
   
@@ -146,8 +155,9 @@ if(timeonground > 60){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3CD90113
-/// @DnDArgument : "code" "/// @description move$(13_10)x+=hsp;$(13_10)y+=vsp;$(13_10)$(13_10) //add boostsprite to bib's feet?$(13_10) if(jumps > 0) && jumpboost==1{$(13_10)  boost.x = x;$(13_10)  boost.y = y;$(13_10)  image_blend = make_color_rgb(255,150,100);$(13_10) } else {$(13_10)  image_blend = -1;$(13_10)  boost.x = -1000;$(13_10)  boost.y = -1000;$(13_10) }"
+/// @DnDArgument : "code" "/// @description move$(13_10)$(13_10)x+=hsp;$(13_10)y+=vsp;$(13_10)$(13_10) //add boostsprite to bib's feet?$(13_10) if(jumps > 0) && jumpboost==1{$(13_10)  boost.x = x;$(13_10)  boost.y = y;$(13_10)  image_blend = make_color_rgb(255,150,100);$(13_10) } else {$(13_10)  image_blend = -1;$(13_10)  boost.x = -1000;$(13_10)  boost.y = -1000;$(13_10) }$(13_10) $(13_10) "
 /// @description move
+
 x+=hsp;
 y+=vsp;
 
