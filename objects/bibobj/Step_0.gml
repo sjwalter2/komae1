@@ -24,7 +24,7 @@ keyrunheld=0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0D9E8830
-/// @DnDArgument : "code" "/// @description Base movement calculation$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)//Horizontal movement$(13_10)if(damagetime < 0){$(13_10) if(keyrunheld) {$(13_10)  maxhspeed = 7;$(13_10) } else {$(13_10)  maxhspeed = 4;$(13_10) }$(13_10) if(keyright) {$(13_10)  hsp=min(hsp+2,maxhspeed); $(13_10)  if(!(vsp<0)) sprite_index=bibrun;$(13_10)  standingaround=0;$(13_10) }$(13_10) if(keyleft){$(13_10)  hsp=max(hsp-2,-maxhspeed);$(13_10)  if(!(vsp<0)) sprite_index=bibrun;$(13_10)  standingaround=0;$(13_10) }$(13_10) if((keyleft && keyright) || (!keyleft && !keyright)){$(13_10)  hsp = hsp/1.5;$(13_10)  if(sprite_index==bibrun) sprite_index=bibstand;$(13_10)  standingaround+=1;$(13_10)  if(standingaround==400) sprite_index=bibyawn;$(13_10)  if(standingaround==500) sprite_index=bibstand;$(13_10) }$(13_10)$(13_10) if sign(hsp) != 0 {$(13_10)  image_xscale = sign(hsp);$(13_10) }$(13_10)$(13_10)$(13_10)$(13_10) //jumpcode$(13_10) if(keyjump) && (jumps>0){$(13_10)  jumps-=1;$(13_10)  timeonground=0;$(13_10)  var jumpmod=1;$(13_10)  if(keyrunheld) jumpmod=1.2;$(13_10)  //possibly doublejump$(13_10)  if (jumpboost==1) {$(13_10)   vsp = -jumpspeeddouble*jumpmod;$(13_10)  }else{$(13_10)   vsp = -jumpspeed*jumpmod;$(13_10)   jumpboost=1;$(13_10)  }$(13_10)  sprite_index = bibjump;$(13_10)  puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);$(13_10)  if(!(hsp==0)) puff.image_xscale = sign(hsp);$(13_10) }$(13_10) //holdjumping$(13_10) if(vsp < 0) && (!keyjumpheld) && (letgo==0){$(13_10)  vsp = max(vsp,vsp/2);$(13_10)  letgo=1$(13_10) }$(13_10)} else {$(13_10) hsp = hsp/1.2;$(13_10) letgo=1;$(13_10) jumpboost=0;$(13_10) damagetime -= 1;$(13_10) if(damagetime == 0) {invincibletime = 90};$(13_10) sprite_index = bibhurt;$(13_10) if(abs(hsp) < 2){$(13_10)  hsp = 2*sign(hsp);$(13_10) }$(13_10) maxhspeed=10;$(13_10)}"
+/// @DnDArgument : "code" "/// @description Base movement calculation$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)//Horizontal movement$(13_10)if(damagetime < 0){$(13_10) if(keyrunheld) {$(13_10)  maxhspeed = 7;$(13_10) } else {$(13_10)  maxhspeed = 4;$(13_10) }$(13_10) if(keyright) {$(13_10)  hsp=min(hsp+2,maxhspeed); $(13_10)  if(!(vsp<0)) {$(13_10)    if(sprite_index != bibland)$(13_10)      sprite_index=bibrun;$(13_10)  }$(13_10)  standingaround=0;$(13_10) }$(13_10) if(keyleft){$(13_10)  hsp=max(hsp-2,-maxhspeed);$(13_10)  if(!(vsp<0)){$(13_10)    if(sprite_index != bibland)$(13_10)      sprite_index=bibrun;$(13_10)  }$(13_10)  standingaround=0;$(13_10) }$(13_10) if((keyleft && keyright) || (!keyleft && !keyright)){$(13_10)  hsp = hsp/1.5;$(13_10)  if(sprite_index==bibrun) sprite_index=bibstand;$(13_10)  standingaround+=1;$(13_10)  if(standingaround==400) sprite_index=bibyawn;$(13_10)  if(standingaround==500) sprite_index=bibstand;$(13_10) }$(13_10)$(13_10) if sign(hsp) != 0 {$(13_10)  image_xscale = sign(hsp);$(13_10) }$(13_10)$(13_10)$(13_10)$(13_10) //jumpcode$(13_10) if(keyjump) && (jumps>0){$(13_10)  jumps-=1;$(13_10)  timeonground=0;$(13_10)  var jumpmod=1;$(13_10)  if(keyrunheld) jumpmod=1.2;$(13_10)  //possibly doublejump$(13_10)  if (jumpboost==1) {$(13_10)   vsp = -jumpspeeddouble*jumpmod;$(13_10)  }else{$(13_10)   vsp = -jumpspeed*jumpmod;$(13_10)   jumpboost=1;$(13_10)  }$(13_10)  sprite_index = bibjump;$(13_10)  puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);$(13_10)  if(!(hsp==0)) puff.image_xscale = sign(hsp);$(13_10) }$(13_10) //holdjumping$(13_10) if(vsp < 0) && (!keyjumpheld) && (letgo==0){$(13_10)  vsp = max(vsp,vsp/2);$(13_10)  letgo=1$(13_10) }$(13_10)} else {$(13_10) hsp = hsp/1.2;$(13_10) letgo=1;$(13_10) jumpboost=0;$(13_10) damagetime -= 1;$(13_10) if(damagetime == 0) {invincibletime = 90};$(13_10) sprite_index = bibhurt;$(13_10) if(abs(hsp) < 2){$(13_10)  hsp = 2*sign(hsp);$(13_10) }$(13_10) maxhspeed=10;$(13_10)}"
 /// @description Base movement calculation
 
 
@@ -39,12 +39,18 @@ if(damagetime < 0){
  }
  if(keyright) {
   hsp=min(hsp+2,maxhspeed); 
-  if(!(vsp<0)) sprite_index=bibrun;
+  if(!(vsp<0)) {
+    if(sprite_index != bibland)
+      sprite_index=bibrun;
+  }
   standingaround=0;
  }
  if(keyleft){
   hsp=max(hsp-2,-maxhspeed);
-  if(!(vsp<0)) sprite_index=bibrun;
+  if(!(vsp<0)){
+    if(sprite_index != bibland)
+      sprite_index=bibrun;
+  }
   standingaround=0;
  }
  if((keyleft && keyright) || (!keyleft && !keyright)){
@@ -116,12 +122,11 @@ if(invincibletime <= 0){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23485095
-/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)timeonground += 1;$(13_10)$(13_10)var returnval = 0;$(13_10)returnval += wallcheck(structure);$(13_10)returnval += wallcheck(pompboy);$(13_10)$(13_10)if (returnval == 0){$(13_10)  vsp = min(vsp+grav,maxvspeed);$(13_10)  jumps=0;$(13_10)  if(vsp > 0) {$(13_10)   if (damagetime < 1) sprite_index = bibfall;$(13_10)   timeonground = 0;$(13_10)  }$(13_10)}$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)var returnval = 0;$(13_10)returnval += wallcheck(structure);$(13_10)returnval += wallcheck(pompboy);$(13_10)$(13_10)if (returnval == 0){$(13_10)  vsp = min(vsp+grav,maxvspeed);$(13_10)  jumps=0;$(13_10)  if(vsp > 0) {$(13_10)   if (damagetime < 1) sprite_index = bibfall;$(13_10)   timeonground = 0;$(13_10)  }$(13_10)} else if( vsp == 0 && timeonground == 2){$(13_10) sprite_index = bibland;$(13_10) image_index = 0;$(13_10) show_debug_message("craetepuff");$(13_10) var puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);$(13_10) if(!(hsp==0)) puff.image_xscale = sign(hsp);$(13_10) timeonground += 1;$(13_10)} else {$(13_10) if((sprite_index == bibland) && (image_index == 3)){ sprite_index = bibstand; }$(13_10) timeonground += 1;$(13_10)}$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)$(13_10)"
 /// @description Handle Wall, Door Collisions
 
 
 
-timeonground += 1;
 
 var returnval = 0;
 returnval += wallcheck(structure);
@@ -134,6 +139,16 @@ if (returnval == 0){
    if (damagetime < 1) sprite_index = bibfall;
    timeonground = 0;
   }
+} else if( vsp == 0 && timeonground == 2){
+ sprite_index = bibland;
+ image_index = 0;
+ show_debug_message("craetepuff");
+ var puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);
+ if(!(hsp==0)) puff.image_xscale = sign(hsp);
+ timeonground += 1;
+} else {
+ if((sprite_index == bibland) && (image_index == 3)){ sprite_index = bibstand; }
+ timeonground += 1;
 }
 
 if(place_meeting(x+hsp, y+vsp, door) && keyup){

@@ -12,7 +12,8 @@
         "62e90046-7161-407a-ab95-43bbc00734c1",
         "edeebae3-1612-420b-ab92-0a4a28d75623",
         "8841e10d-ee98-4225-9d95-229309da6c7f",
-        "06963b53-c893-4640-bf20-37776d1b0816"
+        "06963b53-c893-4640-bf20-37776d1b0816",
+        "c23e4d65-f610-474f-b82a-114a8b6aa4ad"
     ],
     "filterType": "GMSprite",
     "folderName": "bibgroup",

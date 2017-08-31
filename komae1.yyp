@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "c23e4d65-f610-474f-b82a-114a8b6aa4ad",
+            "Value": {
+                "id": "377681bc-d7ed-47e6-b09f-11d66f426732",
+                "resourcePath": "sprites\\bibland\\bibland.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c48285d2-45de-4fab-a78e-c53b1803925d",
             "Value": {
                 "id": "f0c15690-6c9c-4bfd-9813-0d43c5243b5a",
