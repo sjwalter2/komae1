@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "379c8e02-00d6-4b96-86c7-be71d0a3bafb",
+            "Value": {
+                "id": "91eac3f8-751e-4381-a12c-685cf0f3a877",
+                "resourcePath": "objects\\truthseer\\truthseer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37f310ab-80b6-4581-910e-96560bae6cba",
             "Value": {
                 "id": "e551afda-359a-4c3f-a638-b1d986bd8723",
                 "resourcePath": "objects\\bibboost\\bibboost.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a4f10d3-1adf-4ba0-ada7-0d02bf0a2db2",
+            "Value": {
+                "id": "af4b9903-ecab-4ce1-bef4-0b230b1716b7",
+                "resourcePath": "sprites\\bouncersprite\\bouncersprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "62db37f6-7b6b-4dc0-b90b-b4d81a8de4f7",
+            "Value": {
+                "id": "bc864c08-bff3-4db4-a2c3-62665b084f07",
+                "resourcePath": "rooms\\industrialzone3\\industrialzone3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "62e90046-7161-407a-ab95-43bbc00734c1",
             "Value": {
                 "id": "7a76e464-03f1-46ea-a6b3-05bba0e53975",
@@ -363,6 +387,14 @@
             "Value": {
                 "id": "1d656022-5980-4bf7-9b14-6f32fdad168b",
                 "resourcePath": "scripts\\wallcheck\\wallcheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7f484027-3023-44f7-a9cd-84b724139526",
+            "Value": {
+                "id": "5c6674f2-e0d1-4f7e-9409-b0fa5e549ccf",
+                "resourcePath": "scripts\\bounceonguy\\bounceonguy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -615,6 +647,14 @@
             }
         },
         {
+            "Key": "cd32993b-f8aa-4e36-870f-f0aa1971ce32",
+            "Value": {
+                "id": "331d0372-812e-47a0-a8be-2cdb88fdefca",
+                "resourcePath": "sprites\\truthsprite\\truthsprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce2c6267-85fb-4ebd-94ac-9c8e67c34e5b",
             "Value": {
                 "id": "ba05ba2b-f016-4c08-98da-ddf3d1298af5",
@@ -743,6 +783,14 @@
             }
         },
         {
+            "Key": "f831c974-b8ad-4c62-b33d-74ed3153caa2",
+            "Value": {
+                "id": "aedb1d56-291f-4ee7-b9b6-113d52cfba13",
+                "resourcePath": "objects\\bounceenemy\\bounceenemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fc7d42de-8ccf-43a0-ba8d-2e07329bb245",
             "Value": {
                 "id": "56a55be2-3644-47b9-9785-f0c8aa83dbf3",
@@ -757,6 +805,14 @@
                 "resourcePath": "sprites\\secretdoorsprite\\secretdoorsprite.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fea35983-934b-4324-a500-8281925fa3b2",
+            "Value": {
+                "id": "4e97ad50-7286-4167-ab70-d76c6dcffd1f",
+                "resourcePath": "objects\\bouncer\\bouncer.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -766,7 +822,8 @@
         "7e4152ca-8a38-4bc1-b6e3-78ce53d1a843",
         "3ef0afce-4333-4631-beee-fcc9700b7999",
         "0ccd9fc6-b201-446f-bbb8-3dc97da436f1",
-        "4f34874e-988f-41aa-8c22-1b7a2594bf1a"
+        "4f34874e-988f-41aa-8c22-1b7a2594bf1a",
+        "7f484027-3023-44f7-a9cd-84b724139526"
     ],
     "tutorial": ""
 }

@@ -105,11 +105,13 @@ if(damagetime < 0){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5E17182D
-/// @DnDArgument : "code" "/// @description damage-dealer collisions$(13_10)$(13_10)//hit electric fence$(13_10)show_debug_message(string(invincibletime));$(13_10)if(invincibletime <= 0){$(13_10) image_alpha = 1.0;$(13_10) damage(elecfence);$(13_10) damage(robotservant);$(13_10)} else {$(13_10) invincibletime -= 1;$(13_10) image_alpha = 0.6;$(13_10)}"
+/// @DnDArgument : "code" "/// @description damage-dealer collisions$(13_10)$(13_10)//bounce enemy$(13_10)bounceonguy(bounceenemy);$(13_10)$(13_10)//hit electric fence$(13_10)if(invincibletime <= 0){$(13_10) image_alpha = 1.0;$(13_10) damage(elecfence);$(13_10) damage(robotservant);$(13_10)} else {$(13_10) invincibletime -= 1;$(13_10) image_alpha = 0.6;$(13_10)}"
 /// @description damage-dealer collisions
 
+//bounce enemy
+bounceonguy(bounceenemy);
+
 //hit electric fence
-show_debug_message(string(invincibletime));
 if(invincibletime <= 0){
  image_alpha = 1.0;
  damage(elecfence);
