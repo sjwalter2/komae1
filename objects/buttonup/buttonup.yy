@@ -1,23 +1,33 @@
 {
-    "id": "b00bfce0-efa0-4adf-bfbc-0e32d85e67a3",
+    "id": "05701229-6e53-454b-b035-88043c41acde",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "startbutton",
+    "name": "buttonup",
     "eventList": [
         {
-            "id": "261254ee-cbb1-458e-a744-9f1299830e6e",
+            "id": "b38dfd5a-06f9-4993-9670-69c63f468c2a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "b00bfce0-efa0-4adf-bfbc-0e32d85e67a3"
+            "m_owner": "05701229-6e53-454b-b035-88043c41acde"
+        },
+        {
+            "id": "e4e6996e-4f02-47eb-8b82-8819e671a3eb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "05701229-6e53-454b-b035-88043c41acde"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c08c09be-34cd-4a67-a14f-b0aa996bdf36",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "911999a6-3e7b-45e5-b18c-06377b81010e",
+    "spriteId": "e3486997-4dd4-42cf-8a46-ddb72a8f182f",
     "visible": true
 }

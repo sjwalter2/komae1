@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "015e9fb4-4c5c-4772-b064-ea8dacc7e87d",
+            "Value": {
+                "id": "2892167a-c721-4d99-ac28-d53adfb10071",
+                "resourcePath": "sprites\\flyersprite\\flyersprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "05701229-6e53-454b-b035-88043c41acde",
+            "Value": {
+                "id": "69012799-339c-41a3-b19f-53fdc10a7a63",
+                "resourcePath": "objects\\buttonup\\buttonup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06963b53-c893-4640-bf20-37776d1b0816",
             "Value": {
                 "id": "eb96fbf0-7b6f-42d1-a3ca-86991d9e4201",
@@ -95,10 +111,26 @@
             }
         },
         {
+            "Key": "0cd34a96-a62e-4683-b2e3-ab56155cff57",
+            "Value": {
+                "id": "1a082f5a-6838-4a20-97d6-218cfbd9e107",
+                "resourcePath": "objects\\buttondown\\buttondown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0eff6d53-a1d7-4920-8503-fa8363daf576",
             "Value": {
                 "id": "fbd6b988-dc73-41a4-8911-3643b13f0dec",
                 "resourcePath": "rooms\\industrialzoneshop\\industrialzoneshop.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1ba1eb43-4eb7-450b-96c5-19716fe3ed3d",
+            "Value": {
+                "id": "c5baf46e-f21e-4783-96a4-042db81c0d25",
+                "resourcePath": "rooms\\buttonroom\\buttonroom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -116,6 +148,14 @@
                 "id": "dcbb916c-d28a-4667-a287-ce194512f01e",
                 "resourcePath": "views\\74acfd34-7bc0-49bf-9b03-423355589b3d-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23856eee-39d8-402f-bfa0-080cd278ecf0",
+            "Value": {
+                "id": "48baaeca-61c2-4479-9eda-701273327cec",
+                "resourcePath": "objects\\flyer\\flyer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -231,6 +271,14 @@
             }
         },
         {
+            "Key": "43b9fbfe-da95-4689-b59e-a5980712795c",
+            "Value": {
+                "id": "8ed08fd9-5ed2-4943-b9a8-91ff01698b08",
+                "resourcePath": "sprites\\buttonupgreen\\buttonupgreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b3c5846-8207-4699-ba49-944be685a8dd",
             "Value": {
                 "id": "db61ef9c-2d5d-4bcf-85cc-786a9ecea293",
@@ -299,6 +347,14 @@
             "Value": {
                 "id": "344a8be9-03e1-48c8-9903-4d4831b4ed0c",
                 "resourcePath": "views\\580869e4-81a4-4c45-97a8-651016eb06db.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e130dbe-0b23-4c0a-9624-3e1cc52f3cfa",
+            "Value": {
+                "id": "5ddcb4e7-2196-4c3b-80dd-77144e310927",
+                "resourcePath": "views\\5e130dbe-0b23-4c0a-9624-3e1cc52f3cfa.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -444,6 +500,14 @@
                 "id": "2b17adb4-8e9a-412f-8faf-03939299b744",
                 "resourcePath": "rooms\\baseroom\\baseroom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8c900e9e-8971-4616-a33f-ef5a53feb915",
+            "Value": {
+                "id": "1dfea89e-746c-46bd-b9cd-cf59befc6ca2",
+                "resourcePath": "objects\\actor\\actor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -684,6 +748,14 @@
                 "id": "312f5fe5-0876-494a-b19e-203293cd9de5",
                 "resourcePath": "views\\e1e01f75-064f-4fe0-9340-6f5fd51be68f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3486997-4dd4-42cf-8a46-ddb72a8f182f",
+            "Value": {
+                "id": "bcfc2b00-43fb-4db9-8fd7-58007eee9b6d",
+                "resourcePath": "sprites\\buttonupred\\buttonupred.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

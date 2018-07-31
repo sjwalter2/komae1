@@ -6,7 +6,9 @@
     "children": [
         "0018ec3e-5bb1-4124-b98b-f62108762da1",
         "06a73b0a-3a2c-4afc-92c8-726f37e5bb7f",
-        "85f3a3d1-950a-4ae7-bb25-eb90c478603d"
+        "85f3a3d1-950a-4ae7-bb25-eb90c478603d",
+        "e3486997-4dd4-42cf-8a46-ddb72a8f182f",
+        "43b9fbfe-da95-4689-b59e-a5980712795c"
     ],
     "filterType": "GMSprite",
     "folderName": "structures",
