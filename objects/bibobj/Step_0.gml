@@ -105,7 +105,7 @@ if(damagetime < 0){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5E17182D
-/// @DnDArgument : "code" "/// @description damage-dealer collisions$(13_10)$(13_10)//bounce enemy$(13_10)bounceonguy(bounceenemy);$(13_10)$(13_10)//hit electric fence$(13_10)if(invincibletime <= 0){$(13_10) image_alpha = 1.0;$(13_10) damage(elecfence);$(13_10) damage(robotservant);$(13_10)} else {$(13_10) invincibletime -= 1;$(13_10) image_alpha = 0.6;$(13_10)}"
+/// @DnDArgument : "code" "/// @description damage-dealer collisions$(13_10)$(13_10)//bounce enemy$(13_10)bounceonguy(bounceenemy);$(13_10)$(13_10)//hit electric fence$(13_10)if(invincibletime <= 0){$(13_10) image_alpha = 1.0;$(13_10) damage(elecfence);$(13_10) damage(enemyparent);$(13_10)} else {$(13_10) invincibletime -= 1;$(13_10) image_alpha = 0.6;$(13_10)}"
 /// @description damage-dealer collisions
 
 //bounce enemy
@@ -115,7 +115,7 @@ bounceonguy(bounceenemy);
 if(invincibletime <= 0){
  image_alpha = 1.0;
  damage(elecfence);
- damage(robotservant);
+ damage(enemyparent);
 } else {
  invincibletime -= 1;
  image_alpha = 0.6;
@@ -124,14 +124,15 @@ if(invincibletime <= 0){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23485095
-/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)var returnval = 0;$(13_10)returnval += wallcheck(structure);$(13_10)returnval += wallcheck(pompboy);$(13_10)$(13_10)if (returnval == 0){$(13_10)  vsp = min(vsp+grav,maxvspeed);$(13_10)  jumps=0;$(13_10)  if(vsp > 0) {$(13_10)   if (damagetime < 1) sprite_index = bibfall;$(13_10)   timeonground = 0;$(13_10)  }$(13_10)} else if( vsp == 0 && timeonground == 2){$(13_10) sprite_index = bibland;$(13_10) image_index = 0;$(13_10) show_debug_message("craetepuff");$(13_10) var puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);$(13_10) if(!(hsp==0)) puff.image_xscale = sign(hsp);$(13_10) timeonground += 1;$(13_10)} else {$(13_10) if((sprite_index == bibland) && (image_index == 3)){ sprite_index = bibstand; }$(13_10) timeonground += 1;$(13_10)}$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// @description Handle Wall, Door Collisions$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)var returnval = 0;$(13_10)returnval += wallcheck(wall);$(13_10)returnval += fencecheck(fence);$(13_10)returnval += wallcheck(pompboy);$(13_10)$(13_10)if (returnval == 0){$(13_10)  vsp = min(vsp+grav,maxvspeed);$(13_10)  jumps=0;$(13_10)  if(vsp > 0) {$(13_10)   if (damagetime < 1) sprite_index = bibfall;$(13_10)   timeonground = 0;$(13_10)  }$(13_10)} else if( vsp == 0 && timeonground == 2){$(13_10) sprite_index = bibland;$(13_10) image_index = 0;$(13_10) show_debug_message("craetepuff");$(13_10) var puff = instance_create_layer(x,y+15,layer_get_id("Instances"),bibpuff);$(13_10) if(!(hsp==0)) puff.image_xscale = sign(hsp);$(13_10) timeonground += 1;$(13_10)} else {$(13_10) if((sprite_index == bibland) && (image_index == 3)){ sprite_index = bibstand; }$(13_10) timeonground += 1;$(13_10)}$(13_10)$(13_10)if(place_meeting(x+hsp, y+vsp, door) && keyup){$(13_10)  $(13_10)  with(instance_nearest(x,y,door)) dooropen();$(13_10)}$(13_10)$(13_10)$(13_10)"
 /// @description Handle Wall, Door Collisions
 
 
 
 
 var returnval = 0;
-returnval += wallcheck(structure);
+returnval += wallcheck(wall);
+returnval += fencecheck(fence);
 returnval += wallcheck(pompboy);
 
 if (returnval == 0){

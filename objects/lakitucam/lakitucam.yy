@@ -2,7 +2,7 @@
     "id": "5267c971-e5b9-4685-a617-8d298438ae09",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "lakitu",
+    "name": "lakitucam",
     "eventList": [
         {
             "id": "e57fca30-82b0-48d3-8293-4af0c3a5f510",
@@ -36,6 +36,7 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -50,6 +51,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
